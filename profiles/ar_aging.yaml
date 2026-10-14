@@ -1,0 +1,8 @@
+# 範例 profile：鼎新 應收帳款帳齡分析表（自動辨識通常已足夠，這裡示範如何覆寫）
+table_name: 應收帳款帳齡分析表
+source_label: 鼎新 Workflow ERP
+drop_columns:
+  - 備註
+kinds:
+  應收金額: number
+  已收金額: number

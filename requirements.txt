@@ -1,0 +1,5 @@
+openpyxl>=3.1
+xlrd>=2.0        # 舊版 .xls
+pyyaml>=6.0      # profiles/*.yaml
+requests>=2.31   # push 模式（Notion API）
+pytest>=8        # 測試
